@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+	source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -13,7 +13,7 @@ gem 'sdoc',         '0.4.0', group: :doc
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
-  gem 'byebug',      '3.4.0'
+
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
 end
@@ -23,3 +23,12 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+gem 'devise'
+gem 'bootstrap-sass', '3.2.0.0'
+
+
+gem 'better_errors', '~> 1.0.1'
+gem 'binding_of_caller'
+gem 'sextant'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem "figaro"
